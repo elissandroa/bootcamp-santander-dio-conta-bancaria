@@ -1,18 +1,28 @@
-## Getting Started
+# Bootcamp Santander 2024 DIO - Java Developer
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Desafio Banco Terminal
 
-## Folder Structure
+### Descrição
+Desenvolvimento de uma aplicação Java que simula a criação de contas bancárias, solicitando os dados do cliente através do terminal.
+* Para tal foi criado uma classe contaTerminal que possui os atributos e métodos necessários para a manipulação das contas.
 
-The workspace contains two folders by default, where:
+* Para o desenvolmento da aplicação foram usados conceitos de Programação Orientada a Objetos (POO), e sintaxe básica de Java, que foi trabalhada no Bootcamp.
+### Ferramentas / Tecnologias
+* Java 21
+* VS Code
+* GitHub
+### Como executar o projeto
+1. Certifique-se de ter o Java 21 instalado em sua máquina.
+2. Clone o repositório:
+   ```bash
+   git clone 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+#### Observações
+- O projeto conta com métodos de depósito e saque, 
+    além de um método para exibir o saldo da conta.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Os métodos não foram chamados na classe principal, por não fazerem parte do desafio, mas estão implementados na classe contaTerminal.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
+    
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
